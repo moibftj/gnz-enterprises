@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>The GNZ Journal — Web Design &amp; Web Development Essays</title>
+  <link>https://www.gnzenterprises.com/blog/</link>
+  <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
+  <description>Daily long-form essays on web design, web development, and WordPress websites — from the desks at GNZ Enterprises.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sat, 18 Apr 2026 12:00:00 GMT</lastBuildDate>
+
+  <item>
+    <title>Web Design in 2026: A Seduction Manual for the Tasteful Entrepreneur</title>
+    <link>https://www.gnzenterprises.com/blog/web-design-seduction-manual-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-design-seduction-manual-2026/</guid>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 GMT</pubDate>
+    <description>A complete, occasionally tender playbook on modern web design — from first impression to final conversion.</description>
+  </item>
+  <item>
+    <title>Affordable Web Design for Small Businesses: A Symphony in Three Zeroes or Less</title>
+    <link>https://www.gnzenterprises.com/blog/affordable-web-design-small-business/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/affordable-web-design-small-business/</guid>
+    <pubDate>Sat, 18 Apr 2026 09:30:00 GMT</pubDate>
+    <description>A working-class manifesto for small-business owners who want a website that respects both the budget and the beholder.</description>
+  </item>
+  <item>
+    <title>WordPress Website Mastery: How to Seduce Google Without Selling Your Soul</title>
+    <link>https://www.gnzenterprises.com/blog/wordpress-website-mastery-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/wordpress-website-mastery-2026/</guid>
+    <pubDate>Sat, 18 Apr 2026 10:00:00 GMT</pubDate>
+    <description>A love letter to the platform that runs nearly half the internet. Speed, security, SEO, and sanity.</description>
+  </item>
+  <item>
+    <title>Web Development vs. Web Design: A Pas de Deux of Pixels and Ports</title>
+    <link>https://www.gnzenterprises.com/blog/web-development-vs-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-development-vs-web-design/</guid>
+    <pubDate>Sat, 18 Apr 2026 10:30:00 GMT</pubDate>
+    <description>One draws the face, the other makes the heart beat. A practical, semi-literary unpacking of the two crafts.</description>
+  </item>
+  <item>
+    <title>Web Design Trends 2026: What's Cooking, What's Cringe, and What's Just Rebranded CSS</title>
+    <link>https://www.gnzenterprises.com/blog/web-design-trends-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-design-trends-2026/</guid>
+    <pubDate>Sat, 18 Apr 2026 11:00:00 GMT</pubDate>
+    <description>A field guide to the year's most quoted, most copied, and most unfairly maligned ideas in web design.</description>
+  </item>
+</channel>
+</rss>
