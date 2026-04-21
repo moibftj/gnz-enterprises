@@ -6,7 +6,129 @@
   <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
   <description>Daily long-form essays on web design, web development, and WordPress websites — from the desks at GNZ Enterprises.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 18 Apr 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 21 Apr 2026 11:30:00 GMT</lastBuildDate>
+
+  <item>
+    <title>Homepage Design: The Rules of the Front Door in 2026</title>
+    <link>https://www.gnzenterprises.com/blog/homepage-design-best-practices/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/homepage-design-best-practices/</guid>
+    <pubDate>Tue, 21 Apr 2026 11:30:00 GMT</pubDate>
+    <description>The nine elements above the fold, the three jobs of a hero, the seven homepage archetypes, and the ten mistakes that quietly lose 40% of your traffic before the user has scrolled.</description>
+  </item>
+  <item>
+    <title>Accessible Web Design: WCAG in Plain English (and the Tactics That Actually Ship)</title>
+    <link>https://www.gnzenterprises.com/blog/accessible-web-design-wcag-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/accessible-web-design-wcag-2026/</guid>
+    <pubDate>Tue, 21 Apr 2026 11:00:00 GMT</pubDate>
+    <description>A politely furious field guide to accessible web design in 2026 — WCAG 2.2 explained in plain English, the 14 tactical rules, and the 2026 legal landscape no studio can ignore.</description>
+  </item>
+  <item>
+    <title>Dark Mode Web Design: The Aesthetic, the Science, and the Pitfalls Nobody Mentions</title>
+    <link>https://www.gnzenterprises.com/blog/dark-mode-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/dark-mode-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 10:30:00 GMT</pubDate>
+    <description>Halation, contrast math, desaturation, and the seven mistakes that separate comfortable dark mode web design from a retinal attack.</description>
+  </item>
+  <item>
+    <title>SEO Web Design: Building a Site Google Actually Wants to Rank</title>
+    <link>https://www.gnzenterprises.com/blog/seo-web-design-best-practices/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/seo-web-design-best-practices/</guid>
+    <pubDate>Tue, 21 Apr 2026 10:00:00 GMT</pubDate>
+    <description>Eight architectural decisions, Core Web Vitals math, structured data, internal linking — the SEO web design fundamentals that post-Helpful-Content Google is rewarding in 2026.</description>
+  </item>
+  <item>
+    <title>The Web Design Process: 8 Steps From Napkin Sketch to Launch Day</title>
+    <link>https://www.gnzenterprises.com/blog/website-design-process-step-by-step/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/website-design-process-step-by-step/</guid>
+    <pubDate>Tue, 21 Apr 2026 09:30:00 GMT</pubDate>
+    <description>The eight stages real studios follow to ship websites without drama — discovery, IA, wireframes, visual, prototype, dev, QA, launch — with honest timelines and the four failures that sink projects.</description>
+  </item>
+  <item>
+    <title>Minimalist Web Design: Less Is More, Except When It's Nothing</title>
+    <link>https://www.gnzenterprises.com/blog/minimalist-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/minimalist-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 09:00:00 GMT</pubDate>
+    <description>The six laws that separate elegant minimalist web design from merely sparse one, the three failures masquerading as restraint, and the five-question audit for any would-be minimalist page.</description>
+  </item>
+
+  <item>
+    <title>The Psychology of Web Design: Why Your Brain Loves (and Loathes) Certain Websites</title>
+    <link>https://www.gnzenterprises.com/blog/psychology-of-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/psychology-of-web-design/</guid>
+    <pubDate>Mon, 20 Apr 2026 11:30:00 GMT</pubDate>
+    <description>A tour through the cognitive biases, perceptual quirks, and ancient heuristics that decide within 50 milliseconds whether your user stays or scrolls past forever.</description>
+  </item>
+  <item>
+    <title>When to Redesign Your Website: 10 Signs It's Stopped Loving You Back</title>
+    <link>https://www.gnzenterprises.com/blog/when-to-redesign-your-website/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/when-to-redesign-your-website/</guid>
+    <pubDate>Mon, 20 Apr 2026 11:00:00 GMT</pubDate>
+    <description>Ten specific, measurable signs your site is due for a redesign — with a pragmatic framework for picking between patch, refresh, restructure, and full rebuild.</description>
+  </item>
+  <item>
+    <title>How to Choose a Web Design Agency Without Losing Your Mind (or Your Retainer)</title>
+    <link>https://www.gnzenterprises.com/blog/how-to-choose-a-web-design-agency/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/how-to-choose-a-web-design-agency/</guid>
+    <pubDate>Mon, 20 Apr 2026 10:30:00 GMT</pubDate>
+    <description>The questions to ask, the red flags to flee, and the quiet green flags nobody's selling you when you shop for a web design agency in 2026.</description>
+  </item>
+  <item>
+    <title>AI Web Design in 2026: The Quiet Revolution That's Actually Not Here Yet</title>
+    <link>https://www.gnzenterprises.com/blog/ai-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-web-design-2026/</guid>
+    <pubDate>Mon, 20 Apr 2026 10:00:00 GMT</pubDate>
+    <description>An honest look at AI web design in 2026 — what the tools are actually good at, what they still fumble, and how working designers use them to ship faster without shipping slop.</description>
+  </item>
+  <item>
+    <title>Landing Page Design That Actually Converts: A Field Manual for the Bounce-Averse</title>
+    <link>https://www.gnzenterprises.com/blog/landing-page-design-that-converts/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/landing-page-design-that-converts/</guid>
+    <pubDate>Mon, 20 Apr 2026 09:30:00 GMT</pubDate>
+    <description>Hero, copy, CTAs, social proof, forms, and the unreasonable eight seconds in which 83% of landing pages lose their visitors.</description>
+  </item>
+  <item>
+    <title>How Much Does a Website Cost in 2026? The Price Breakdown, Receipts Attached</title>
+    <link>https://www.gnzenterprises.com/blog/how-much-does-a-website-cost-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/how-much-does-a-website-cost-2026/</guid>
+    <pubDate>Mon, 20 Apr 2026 09:00:00 GMT</pubDate>
+    <description>An honest breakdown of what a website really costs in 2026 — six honest tiers, hidden fees, and the budgeting questions every founder should answer before shopping an agency.</description>
+  </item>
+
+  <item>
+    <title>WordPress vs Webflow vs Squarespace 2026: A Three-Way Cage Match</title>
+    <link>https://www.gnzenterprises.com/blog/wordpress-vs-webflow-vs-squarespace-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/wordpress-vs-webflow-vs-squarespace-2026/</guid>
+    <pubDate>Sun, 19 Apr 2026 11:00:00 GMT</pubDate>
+    <description>Honest, un-sponsored verdicts on WordPress, Webflow, and Squarespace — and who each platform is actually for.</description>
+  </item>
+  <item>
+    <title>Ecommerce Web Design That Actually Sells: A Field Manual</title>
+    <link>https://www.gnzenterprises.com/blog/ecommerce-web-design-that-sells/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ecommerce-web-design-that-sells/</guid>
+    <pubDate>Sun, 19 Apr 2026 10:30:00 GMT</pubDate>
+    <description>Category pages, PDPs, checkout, and the conversion rules that still work in 2026.</description>
+  </item>
+  <item>
+    <title>Custom Website Design vs Templates: A Diatribe, With Receipts</title>
+    <link>https://www.gnzenterprises.com/blog/custom-website-design-vs-templates/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/custom-website-design-vs-templates/</guid>
+    <pubDate>Sun, 19 Apr 2026 10:00:00 GMT</pubDate>
+    <description>When custom is worth it, when templates are the adult choice, and the middle path that saves 60% of budgets.</description>
+  </item>
+  <item>
+    <title>Best Web Design Tools of 2026: A Curated, Opinionated List</title>
+    <link>https://www.gnzenterprises.com/blog/best-web-design-tools-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/best-web-design-tools-2026/</guid>
+    <pubDate>Sun, 19 Apr 2026 09:30:00 GMT</pubDate>
+    <description>A ranked, honest guide to the best web design tools of 2026. Plus what to stop paying for.</description>
+  </item>
+  <item>
+    <title>Responsive Web Design in 2026: A Website That Behaves on Every Screen</title>
+    <link>https://www.gnzenterprises.com/blog/responsive-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/responsive-web-design-2026/</guid>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 GMT</pubDate>
+    <description>Breakpoints, container queries, fluid type, and why your website is getting benched on mobile.</description>
+  </item>
 
   <item>
     <title>Web Design in 2026: A Seduction Manual for the Tasteful Entrepreneur</title>
