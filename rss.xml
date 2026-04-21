@@ -6,7 +6,43 @@
   <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
   <description>Daily long-form essays on web design, web development, and WordPress websites — from the desks at GNZ Enterprises.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 21 Apr 2026 11:30:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 21 Apr 2026 16:00:00 GMT</lastBuildDate>
+
+  <item>
+    <title>Nonprofit Web Design: Donations, Dignity, and Design That Doesn't Beg</title>
+    <link>https://www.gnzenterprises.com/blog/nonprofit-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/nonprofit-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 16:00:00 GMT</pubDate>
+    <description>The donate-page math, the trust architecture, the six mistakes that cost a charity 30% of online gifts, and the 10-step nonprofit site checklist for 2026.</description>
+  </item>
+  <item>
+    <title>Web Design Portfolio Examples That Actually Flex (2026)</title>
+    <link>https://www.gnzenterprises.com/blog/web-design-portfolio-examples-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-design-portfolio-examples-2026/</guid>
+    <pubDate>Tue, 21 Apr 2026 15:30:00 GMT</pubDate>
+    <description>Six portfolio archetypes, ten rules, a case-study skeleton that lands interviews, and the eight mistakes that get portfolios closed in twelve seconds.</description>
+  </item>
+  <item>
+    <title>Mobile-First Web Design: Pocket-Sized Opulence</title>
+    <link>https://www.gnzenterprises.com/blog/mobile-first-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/mobile-first-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 15:00:00 GMT</pubDate>
+    <description>Mobile-first web design properly defined, the five moves that matter, the ten thumb betrayals, and the 5-minute audit for any page in 2026.</description>
+  </item>
+  <item>
+    <title>Color Theory for Web Design: A Palette for People Who Have Eyeballs</title>
+    <link>https://www.gnzenterprises.com/blog/color-theory-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/color-theory-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 14:30:00 GMT</pubDate>
+    <description>The five-color palette, the 60/30/10 rule, WCAG-safe contrast math, and the 90-second palette audit for any working web designer in 2026.</description>
+  </item>
+  <item>
+    <title>Typography in Web Design: The Quiet Dictator of the Page</title>
+    <link>https://www.gnzenterprises.com/blog/typography-in-web-design/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/typography-in-web-design/</guid>
+    <pubDate>Tue, 21 Apr 2026 14:00:00 GMT</pubDate>
+    <description>A 2026 field manual on typography in web design — pairing, hierarchy, measure, leading, and the ten sins nobody admits to.</description>
+  </item>
 
   <item>
     <title>Homepage Design: The Rules of the Front Door in 2026</title>
