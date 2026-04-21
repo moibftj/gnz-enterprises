@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+<title>Color Theory for Web Design: A Palette for People Who Have Eyeballs | GNZ</title>
+<meta name="description" content="Color theory for web design in 2026 — the five-color palette, the 60/30/10 rule, WCAG-safe contrast ratios, and why your brand is not actually 'blue'." />
+<meta name="keywords" content="color theory web design, website color schemes, brand colors web design, color palette 2026, ui color theory" />
+<link rel="canonical" href="https://www.gnzenterprises.com/blog/color-theory-web-design/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Color Theory for Web Design: A Palette for People Who Have Eyeballs" />
+<meta property="og:description" content="The five-color palette, the 60/30/10 rule, WCAG-safe contrast math, and the 90-second palette audit for any working web designer in 2026." />
+<meta property="og:url" content="https://www.gnzenterprises.com/blog/color-theory-web-design/" />
+<meta property="article:published_time" content="2026-04-21T14:30:00Z" />
+<link rel="stylesheet" href="/assets/style.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Color Theory for Web Design: A Palette for People Who Have Eyeballs","description":"Color theory for web design in 2026 — five-color palettes, 60/30/10, contrast math, dark mode, psychology, and the 90-second palette audit.","author":{"@type":"Organization","name":"GNZ Enterprises"},"publisher":{"@type":"Organization","name":"GNZ Enterprises","logo":{"@type":"ImageObject","url":"https://www.gnzenterprises.com/assets/logo.png"}},"datePublished":"2026-04-21","dateModified":"2026-04-21","mainEntityOfPage":"https://www.gnzenterprises.com/blog/color-theory-web-design/","keywords":"color theory web design, website color schemes, brand colors, color palette 2026"}
+</script>
+</head>
+<body>
+<header class="site">
+<a class="brand" href="/">GNZ <em>Enterprises</em></a>
+<nav>
+<a href="/blog/">Blog</a>
+<a href="/#services">Services</a>
+<a href="/#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<span class="kicker">Essay · Color</span>
+<h1>Color Theory for Web Design: A Palette for People Who Have Eyeballs</h1>
+<div class="meta"><span>April 21, 2026</span><span>13 min read</span><span>By GNZ Enterprises</span></div>
+
+<p class="lede">A website's color scheme is the first sentence it speaks — before a headline, before a hero, before the visitor has done anything more strenuous than open their laptop. Get it right and the page becomes a room one wants to sit in. Get it wrong and, respectfully, it's giving municipal-office-circa-2007. Let us do the former.</p>
+
+<h2>Color theory in web design, stripped of the incense</h2>
+<p>Forget the color wheel on the dentist's ceiling for a moment. On the web, color has exactly three jobs:</p>
+<ul>
+<li><strong>Direct attention.</strong> What do you want them to look at first? (Spoiler: the CTA.)</li>
+<li><strong>Convey mood.</strong> Trust, calm, urgency, delight, prestige — every palette picks a lane.</li>
+<li><strong>Organize meaning.</strong> Primary, secondary, semantic, disabled. Every state earns a hue or it is chaos.</li>
+</ul>
+<p>Everything else — complementary triads, split-complements, tetradic rhapsodies — is academia. Useful academia. But academia.</p>
+
+<h2>The five-color palette rule</h2>
+<p>Professional web design palettes use <strong>five colors, not fifteen</strong>. This is not a limitation; it is how your brand stays recognizable across 43 touchpoints.</p>
+<ol>
+<li><strong>Paper</strong> — your background (near-white or near-black).</li>
+<li><strong>Ink</strong> — your primary text color (never pure black; try <code>#111827</code> or <code>#0B0F19</code>).</li>
+<li><strong>One accent</strong> — the emotional temperature of the brand. Used for emphasis, CTAs, highlights.</li>
+<li><strong>One exception</strong> — a second color used &lt;5% of the time. Rare, intentional, powerful.</li>
+<li><strong>Muted neutral</strong> — for borders, dividers, subtle surfaces. Never compete with ink.</li>
+</ol>
+<p>That's it. Five slots. Semantic states (success green, error red, warning amber, info blue) are <strong>weather</strong>, not brand — they appear only when the system state requires them.</p>
+<p>Sites that present "our brand palette" with thirteen colors generally have a brand the way a dropped deck of cards has order.</p>
+
+<h2>The 60/30/10 rule, imported from interiors</h2>
+<ul>
+<li><strong>60%</strong> of the page is your dominant neutral (paper + large surfaces).</li>
+<li><strong>30%</strong> is secondary (muted neutrals, body text, supporting blocks).</li>
+<li><strong>10%</strong> is the accent — the color that does the work.</li>
+</ul>
+<p>Flip these ratios and the page feels loud, anxious, trying. Nobody trusts a website that is trying.</p>
+
+<h2>Your brand is not "blue"</h2>
+<p>"Our brand color is blue" is a confession, not a design system. On the web you need at least <strong>nine shades</strong> of your accent — from the palest tint for hover states to the darkest shade for pressed buttons and focus rings.</p>
+<p>The working list:</p>
+<ul>
+<li><code>50</code> — palest tint, hovered backgrounds, subtle fills</li>
+<li><code>100</code> — disabled states, skeleton placeholders</li>
+<li><code>200</code> — pressed subtle states</li>
+<li><code>300</code> — secondary borders</li>
+<li><code>400</code> — tertiary text (use sparingly)</li>
+<li><code>500</code> — <strong>base brand color</strong></li>
+<li><code>600</code> — <strong>default button, default link</strong></li>
+<li><code>700</code> — hover state of button</li>
+<li><code>800</code> — active/pressed button</li>
+<li><code>900</code> — dark mode surface, deep accent</li>
+</ul>
+<p>Design tools spit these out with one click. Use them.</p>
+
+<h2>Contrast math: the part nobody teaches and everyone fails</h2>
+<p>WCAG 2.2 says:</p>
+<ul>
+<li>Body text vs. background: <strong>4.5:1</strong> minimum.</li>
+<li>Large text (≥18.66px bold / ≥24px regular): <strong>3:1</strong> minimum.</li>
+<li>Non-text UI elements (buttons, input borders): <strong>3:1</strong> against adjacent colors.</li>
+</ul>
+<p>A beige body text on a beige background is not "soft" — it is legally questionable and morally loose. Your brand's existence does not override the physics of low-vision users and glare-on-a-phone-in-the-sun reality.</p>
+<p>Quick gut checks:</p>
+<ul>
+<li><code>#777</code> on <code>#fff</code> — fails (4.47:1). Use <code>#595959</code> or darker.</li>
+<li><code>#0B0F19</code> text on <code>#FAFAFA</code> — passes at 19:1. Overkill but safe.</li>
+<li>White text on <code>#3B82F6</code> (tailwind blue-500) — fails for small text (4.2:1). Use blue-600 or darker.</li>
+</ul>
+
+<h2>Light mode vs. dark mode: different math entirely</h2>
+<p>Dark mode is not "inverse light mode." Pure <code>#000000</code> backgrounds make white text halate — the characters appear to glow and blur. On dark mode:</p>
+<ul>
+<li>Background: <code>#0F1419</code> to <code>#111827</code>, not pure black.</li>
+<li>Body text: <code>#E5E7EB</code> to <code>#F3F4F6</code>, not pure white.</li>
+<li><strong>Desaturate brand colors by 10–20%.</strong> Pure saturations burn retinas on dark canvases.</li>
+<li>Keep contrast ≥ 4.5:1, but tune downward — dark-mode 14:1 still reads as piercing.</li>
+</ul>
+<p>See also: <a href="/blog/dark-mode-web-design/">Dark Mode Web Design</a>.</p>
+
+<h2>Color psychology, with a dose of realism</h2>
+<ul>
+<li><strong>Blue</strong> — trust, stability, corporate. Used by 60% of SaaS because it is safe and boring.</li>
+<li><strong>Green</strong> — growth, health, money. Nearly impossible to make look luxurious.</li>
+<li><strong>Red</strong> — urgency, appetite, error. Powerful in small doses; overwhelming in large.</li>
+<li><strong>Yellow</strong> — joy, caution, children's brands. Punishingly hard on a white background.</li>
+<li><strong>Purple</strong> — creativity, royalty, fintech-pretending-to-be-fun.</li>
+<li><strong>Orange</strong> — friendliness, action, discount signage. Underrated for CTAs.</li>
+<li><strong>Black + white + one accent</strong> — the luxury formula for a reason.</li>
+<li><strong>Beige + warm neutrals</strong> — the direct-to-consumer formula; also the reason every DTC site looks alike.</li>
+</ul>
+<p>None of this is law. All of it is inherited association. Use it or subvert it — but know which you're doing.</p>
+
+<h2>Accessibility is the floor, not the ceiling</h2>
+<p>The instinct is to design and then "check if it's accessible." This is backwards. Accessible color is the <strong>starting constraint</strong>. It excludes nothing elegant; it excludes only the lazy.</p>
+<p>Build the palette so every foreground/background combination in your system passes WCAG AA before you have designed a single screen. You will never again have to redesign a button two weeks before launch.</p>
+
+<h2>The 90-second palette audit</h2>
+<ul>
+<li>Count the distinct colors on your homepage. More than seven? Trouble.</li>
+<li>Identify the CTA. Is it the single most saturated element on the page? It should be.</li>
+<li>Mute everything except the CTA to gray in your head — does the CTA still pop?</li>
+<li>Check body text contrast against its background with any WCAG tool.</li>
+<li>Drop the site to grayscale. Is the hierarchy still legible? (This is the acid test.)</li>
+</ul>
+<p>If the page falls apart in grayscale, the design was using color as a crutch — replace it with contrast, weight, and size. Color can then return as seasoning, not structure.</p>
+
+<h2>Five palettes that are working in 2026</h2>
+<ul>
+<li><strong>Paper white + ink + terracotta + forest</strong> — editorial, warm, D2C-adjacent.</li>
+<li><strong>Near-black + bone + muted amber</strong> — luxury, quiet confidence.</li>
+<li><strong>Off-white + graphite + electric blue</strong> — fintech, SaaS, "we ship."</li>
+<li><strong>Cream + umber + sage + coral</strong> — wellness, slow-living, lifestyle.</li>
+<li><strong>Near-black + soft white + acid lime</strong> — developer tools, AI, "we're different."</li>
+</ul>
+<p>Steal, adapt, make yours. The point is restraint, not originality.</p>
+
+<h2>Conclusion: a one-line sermon</h2>
+<p>Color theory in web design is not the art of adding hues; it is the discipline of removing them until only the ones that mean something remain — and a palette edited like a poem will sell more than one mixed like a paint spill.</p>
+
+<p>See also: <a href="/blog/typography-in-web-design/">Typography in Web Design</a>, <a href="/blog/minimalist-web-design/">Minimalist Web Design</a>, and <a href="/blog/web-design-trends-2026/">Web Design Trends 2026</a>.</p>
+
+<hr />
+
+<p class="lede">Five new essays ship daily at <a href="/blog/">the journal</a>. Follow the <a href="/rss.xml">RSS</a>, or write to <a href="mailto:opportunities@homes.land">opportunities@homes.land</a>.</p>
+
+<nav class="article-nav">
+<a href="/blog/">Back to the journal →</a>
+</nav>
+</main>
+
+<footer class="site">
+© <span id="y"></span> GNZ Enterprises. All rights reserved. · <a href="/">Home</a> · <a href="/blog/">Blog</a>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</footer>
+</body>
+</html>
