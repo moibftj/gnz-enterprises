@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <title>SEO Web Design: Building a Site Google Actually Wants to Rank | GNZ</title>
+  <meta name="description" content="A 15-minute, no-fluff guide to SEO web design in 2026 — the technical, content, and architectural choices that make Google's crawler fond of your site instead of quietly ignoring it." />
+  <meta name="keywords" content="seo web design, seo friendly web design, seo optimized website, web design and seo, on-page seo, technical seo, 2026" />
+  <link rel="canonical" href="https://www.gnzenterprises.com/blog/seo-web-design-best-practices/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="SEO Web Design: Building a Site Google Actually Wants to Rank" />
+  <meta property="og:description" content="Eight architectural decisions, Core Web Vitals math, structured data, internal linking — the SEO web design fundamentals for 2026." />
+  <meta property="og:url" content="https://www.gnzenterprises.com/blog/seo-web-design-best-practices/" />
+  <meta property="article:published_time" content="2026-04-21T10:00:00Z" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "SEO Web Design: Building a Site Google Actually Wants to Rank",
+    "description": "Architectural, technical, and content decisions for SEO web design in 2026.",
+    "author": { "@type": "Organization", "name": "GNZ Enterprises" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GNZ Enterprises",
+      "logo": { "@type": "ImageObject", "url": "https://www.gnzenterprises.com/assets/logo.png" }
+    },
+    "datePublished": "2026-04-21",
+    "dateModified": "2026-04-21",
+    "mainEntityOfPage": "https://www.gnzenterprises.com/blog/seo-web-design-best-practices/",
+    "keywords": "seo web design, seo friendly web design, seo optimized website, web design and seo"
+  }
+  </script>
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="/">GNZ <em>Enterprises</em></a>
+  <nav>
+    <a href="/blog/">Blog</a>
+    <a href="/#services">Services</a>
+    <a href="/#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <span class="kicker">Essay · SEO</span>
+  <h1>SEO Web Design: Building a Site Google Actually Wants to Rank</h1>
+  <div class="meta"><span>April 21, 2026</span><span>15 min read</span><span>By GNZ Enterprises</span></div>
+
+  <p class="lede">Google's ranking signals are now so tightly interwoven with design and engineering decisions that trying to "add SEO" to a finished site is like seasoning a cake after it's baked — theoretically possible, mostly sad.</p>
+
+  <h2>Why "bolt-on SEO" is dead</h2>
+  <p>Post-2020 Core Web Vitals, post-Helpful Content, post-scaled-content-abuse enforcement. Google's 2026 reward function is uncomfortably close to a simple instruction: <em>be genuinely useful, technically competent, fast, accessible, and original.</em> That cannot be satisfied by a plugin.</p>
+
+  <h2>The 2026 ranking stack</h2>
+  <ol>
+    <li>Content quality and originality.</li>
+    <li>E-E-A-T signals.</li>
+    <li>Intent match.</li>
+    <li>Technical accessibility.</li>
+    <li>Core Web Vitals.</li>
+    <li>Internal linking & site architecture.</li>
+    <li>External signals (backlinks, mentions, search behavior).</li>
+  </ol>
+
+  <h2>The eight SEO-critical design decisions</h2>
+
+  <h3>1. URL architecture that survives redesigns</h3>
+  <p>Lowercase, hyphen-separated, short, keyword-forward, hierarchical. Stable over 18 months. <code>/blog/seo-web-design-best-practices/</code> beats <code>/p?id=742</code>.</p>
+
+  <h3>2. HTML semantics your CMS doesn't undo</h3>
+  <p><code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;footer&gt;</code> — with honest intent and a clean H1–H3 outline.</p>
+
+  <h3>3. Page speed that actually loads fast</h3>
+  <ul>
+    <li>LCP under 2.5s (ideally 1.8s).</li>
+    <li>INP under 200ms (ideally 150ms).</li>
+    <li>CLS under 0.1 (ideally 0.05).</li>
+    <li>Static-first architectures. Image discipline (WebP/AVIF, explicit dimensions, lazy-loading, <code>fetchpriority="high"</code> on LCP). Font strategy (<code>font-display: swap</code>). JS diet.</li>
+  </ul>
+
+  <h3>4. Mobile-first architecture, not "mobile-responsive"</h3>
+  <p>Google indexes mobile. All content in the initial mobile DOM. Internal links visible without interaction. Structured data identical. Tap targets 48×48px minimum.</p>
+
+  <h3>5. Structured data that matches the content</h3>
+  <ul>
+    <li><code>Organization</code> on the homepage with logo, sameAs, contactPoint.</li>
+    <li><code>WebSite</code> with <code>SearchAction</code>.</li>
+    <li><code>Article</code>/<code>BlogPosting</code> on every post with headline, datePublished, dateModified, author, publisher.</li>
+    <li><code>BreadcrumbList</code> on every non-home page.</li>
+    <li><code>Product</code> with offers and aggregateRating on PDPs.</li>
+  </ul>
+
+  <h3>6. Internal linking as a design pattern</h3>
+  <ul>
+    <li>Every new post links to at least two existing posts.</li>
+    <li>Existing posts updated to link to the new one.</li>
+    <li>Anchor text describes the destination, not "click here."</li>
+  </ul>
+
+  <h3>7. Canonical, robots, and indexing hygiene</h3>
+  <ul>
+    <li>One canonical per URL.</li>
+    <li><code>noindex, follow</code> on thin/parameterized/paginated pages.</li>
+    <li>Robots.txt excludes only truly internal paths — never CSS or JS.</li>
+    <li>XML sitemap with honest <code>lastmod</code>, linked from robots.txt.</li>
+  </ul>
+
+  <h3>8. Content hierarchy that mirrors intent</h3>
+  <p>A guide needs a TOC and summary bullets. A product page needs hero, benefits, gallery, spec table, proof. A comparison page needs a table. Match the query's shape.</p>
+
+  <h2>The content rules that feed the design</h2>
+  <ul>
+    <li>Answer the query on the first screen.</li>
+    <li>Show first-hand experience — screenshots, data, specifics.</li>
+    <li>Honest <code>dateModified</code>.</li>
+    <li>Cite primary sources.</li>
+    <li>No scaled AI authorship. AI assistance is fine; AI authorship is a policy risk.</li>
+  </ul>
+
+  <h2>The pre-launch SEO checklist</h2>
+  <ul>
+    <li>One H1, keyword-forward.</li>
+    <li>&lt;title&gt; under 60 chars, keyword-forward.</li>
+    <li>Meta description under 160 chars with a secondary keyword.</li>
+    <li>Canonical present and correct.</li>
+    <li>Open Graph + Twitter Card filled in.</li>
+    <li>JSON-LD valid (test in rich-results tool).</li>
+    <li>Image alts, explicit dimensions, lazy-loading.</li>
+    <li>Core Web Vitals pass on mobile for top 20 pages.</li>
+    <li>Sitemap updated & submitted.</li>
+    <li>Robots.txt correct.</li>
+    <li>301 redirects mapped for every changed URL.</li>
+    <li>Internal links from at least two existing pages to each new page.</li>
+  </ul>
+
+  <h2>Measuring whether it's working</h2>
+  <ul>
+    <li><strong>Search Console → Performance:</strong> clicks, impressions, position, queries.</li>
+    <li><strong>Search Console → Pages:</strong> Indexed vs. Discovered-not-indexed vs. Crawled-not-indexed.</li>
+    <li><strong>Core Web Vitals:</strong> real-user field data.</li>
+    <li><strong>Analytics:</strong> time on page + conversion rate by URL.</li>
+  </ul>
+  <p>Weekly, not daily. SEO rewards patience.</p>
+
+  <h2>Conclusion: a one-line sermon</h2>
+  <p>The best SEO web design doesn't feel like SEO at all — it feels like a site built for a thoughtful reader, which is, conveniently, exactly what the 2026 algorithm has been optimized to reward.</p>
+
+  <p>See also: <a href="/blog/responsive-web-design-2026/">Responsive Web Design in 2026</a>, <a href="/blog/best-web-design-tools-2026/">Best Web Design Tools of 2026</a>, and <a href="/blog/psychology-of-web-design/">The Psychology of Web Design</a>.</p>
+
+  <hr />
+
+  <p class="lede">Five new essays ship daily at <a href="/blog/">the journal</a>. Follow the <a href="/rss.xml">RSS</a>, or write to <a href="mailto:opportunities@homes.land">opportunities@homes.land</a>.</p>
+
+  <nav class="article-nav">
+    <a href="/blog/website-design-process-step-by-step/">← Previous: The Web Design Process</a>
+    <a href="/blog/">Back to the journal →</a>
+  </nav>
+</main>
+
+<footer class="site">
+  © <span id="y"></span> GNZ Enterprises. All rights reserved. · <a href="/">Home</a> · <a href="/blog/">Blog</a>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</footer>
+</body>
+</html>
