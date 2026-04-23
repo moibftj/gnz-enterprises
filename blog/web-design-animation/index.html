@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+<title>Animation in Web Design: The Seven Tasteful Motion Principles | GNZ</title>
+<meta name="description" content="A 2026 field manual on web design animation — the seven principles that turn motion into meaning, the four sins that turn it into nausea, and a 10-minute audit." />
+<meta name="keywords" content="web design animation, motion design, web animation, ui animation, micro-interactions, scroll animation" />
+<link rel="canonical" href="https://www.gnzenterprises.com/blog/web-design-animation/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Animation in Web Design: The Seven Tasteful Motion Principles" />
+<meta property="og:description" content="The seven principles that turn web design animation into meaning, four sins that turn it into nausea, and a 10-minute audit." />
+<meta property="og:url" content="https://www.gnzenterprises.com/blog/web-design-animation/" />
+<meta property="article:published_time" content="2026-04-23T09:30:00Z" />
+<link rel="stylesheet" href="/assets/style.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Animation in Web Design: The Seven Tasteful Motion Principles","description":"The seven principles of tasteful motion design for web design in 2026.","author":{"@type":"Organization","name":"GNZ Enterprises"},"publisher":{"@type":"Organization","name":"GNZ Enterprises","logo":{"@type":"ImageObject","url":"https://www.gnzenterprises.com/assets/logo.png"}},"datePublished":"2026-04-23","dateModified":"2026-04-23","mainEntityOfPage":"https://www.gnzenterprises.com/blog/web-design-animation/","keywords":"web design animation, motion design, ui animation, micro-interactions"}
+</script>
+</head>
+<body>
+<header class="site">
+<a class="brand" href="/">GNZ <em>Enterprises</em></a>
+<nav>
+<a href="/blog/">Blog</a>
+<a href="/#services">Services</a>
+<a href="/#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<span class="kicker">Essay · Motion</span>
+<h1>Animation in Web Design: The Seven Tasteful Motion Principles</h1>
+<div class="meta"><span>April 23, 2026</span><span>13 min read</span><span>By GNZ Enterprises</span></div>
+
+<p class="lede">Motion, like perfume, is marvellous at fifteen centimetres and tragic at five. <strong>Web design animation</strong>, when done with discretion, makes an interface feel alive — almost as if the page were a well-read friend nodding politely at the right moments. When done without discretion, it makes the user seasick and the Lighthouse score cry.</p>
+
+<h2>Why animation matters in modern web design</h2>
+<p>Humans are not literate readers of stationary things. We are, evolutionarily, spotters of motion — we clocked the sabre-toothed tiger because it moved, not because it filed a press release. On the web, motion is therefore <em>attention currency</em>. Spend it where meaning lives; hoard it everywhere else.</p>
+<p>Three useful uses of motion, in declining order of seriousness:</p>
+<ul>
+<li><strong>State change</strong> — telling the user something happened (form saved, item added, menu opened).</li>
+<li><strong>Continuity</strong> — morphing A into B so the user doesn't lose their place in the story.</li>
+<li><strong>Delight</strong> — the small flourish that earns a half-smile and, occasionally, a share.</li>
+</ul>
+<p>Everything else is drag on the first input delay.</p>
+
+<h2>The seven principles of tasteful web design animation</h2>
+
+<h3>1. Duration: 150–500ms is the civilized band</h3>
+<p>Anything under 150ms reads as a glitch. Anything over 500ms reads as a presentation the user did not RSVP to. Most micro-interactions belong in 200–300ms. Page transitions may stretch to 400–500ms. After that, you are no longer animating; you are detaining.</p>
+
+<h3>2. Easing: linear is a sin</h3>
+<p>Linear easing is the motion equivalent of a robot reading a poem aloud. Use <em>ease-out</em> for enters, <em>ease-in</em> for exits, and <em>ease-in-out</em> for round transitions. The industry-standard cubic-bezier <code>(0.4, 0, 0.2, 1)</code> is the Switzerland of easing — neutral, trusted, always invited.</p>
+
+<h3>3. Motion must match meaning</h3>
+<p>If a thing is dismissed, it exits downward or outward. If it is confirmed, it scales up with confidence. A modal that fades in with no scale feels uncommitted. A modal that scales from 0.95 to 1 while fading in feels arrived. The difference is a single CSS property; the impression lasts.</p>
+
+<h3>4. Respect <code>prefers-reduced-motion</code></h3>
+<p>Approximately 35% of users have some form of vestibular sensitivity. Your parallax hero is, for them, a roller coaster they did not queue for. Ship this today:</p>
+<pre><code>@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}</code></pre>
+
+<h3>5. One hero moment, not seventeen</h3>
+<p>A page with a motion moment in every section feels like a car alarm at a funeral. Pick one cinematic beat per page — a morphing headline, a scroll-revealed chart, a scaled hero — and let the rest be quiet competence. Quiet competence is, counter-intuitively, the most memorable thing a page can do.</p>
+
+<h3>6. Performance is a motion principle</h3>
+<p>60fps or don't bother. Animate only <code>transform</code> and <code>opacity</code>. Use <code>will-change</code> sparingly and remove it after. Use the Web Animations API for choreographed sequences; use GSAP when you need guarantees. Test on a mid-range Android from 2022, not on your M3 MacBook.</p>
+
+<h3>7. If in doubt, remove the animation</h3>
+<p>The most elegant motion decision is often none. A site with zero animation but thoughtful typography will out-convert a site with a hundred motion moments and vibes. When you remove an animation and the page still communicates what happened, you have found a decoration, not a design tool.</p>
+
+<h2>Four animation mistakes that are giving amateur hour</h2>
+<ul>
+<li><strong>Scroll-jacking.</strong> Hijacking the user's scroll is the UI equivalent of grabbing the steering wheel. The user will leave. They will also remember why.</li>
+<li><strong>Preloaders on pages that don't need them.</strong> A preloader on a static site is theatre. A fast page is the preloader.</li>
+<li><strong>Hover-only content.</strong> If your portfolio tile only reveals the project title on hover, mobile users see anonymous rectangles. Embarrassing.</li>
+<li><strong>Scroll-linked animation without <code>requestAnimationFrame</code>.</strong> You've sent your page's frame rate on a religious retreat.</li>
+</ul>
+
+<h2>The 10-minute motion audit</h2>
+<ul>
+<li>Scroll top to bottom. Count every animation. More than 8 and you have a carnival.</li>
+<li>DevTools → Rendering → Show FPS meter. Scroll again. Any dip below 50fps? Fix it.</li>
+<li>Enable <code>prefers-reduced-motion</code> in DevTools emulation. Did anything break? Did anything become unreachable?</li>
+<li>Tab through the page with keyboard. Do focus transitions animate? They should — subtly.</li>
+<li>Screen-record 30 seconds at 0.5× speed. Does any motion look clownish when slowed? It will look clownish at normal speed, too. You stopped noticing.</li>
+<li>Lighthouse — TBT under 200ms? INP under 200ms? If not, motion is almost always the culprit.</li>
+</ul>
+
+<h2>Tools worth knowing in 2026</h2>
+<ul>
+<li><strong>CSS @scroll-timeline / view-timeline</strong> — native scroll-linked animation without JavaScript, now in every evergreen browser.</li>
+<li><strong>GSAP 4 + ScrollTrigger</strong> — still the gold standard for choreographed sequences.</li>
+<li><strong>Motion (formerly Framer Motion)</strong> — React default.</li>
+<li><strong>Lottie / dotLottie</strong> — vector animations, tiny file size, crisp at any scale.</li>
+<li><strong>Rive</strong> — interactive animations that respond to state. Overkill for most sites; correct for a few.</li>
+</ul>
+
+<h2>Conclusion: a one-line sermon</h2>
+<p>The best animation is the one the user feels but does not notice — like manners at a formal dinner; once the motion starts drawing attention to itself, it has stopped serving the design.</p>
+
+<p>See also: <a href="/blog/minimalist-web-design/">Minimalist Web Design</a>, <a href="/blog/homepage-design-best-practices/">Homepage Design Best Practices</a>, and <a href="/blog/accessible-web-design-wcag-2026/">Accessible Web Design: WCAG 2.2</a>.</p>
+
+<hr />
+<p class="lede">Five new essays ship daily at <a href="/blog/">the journal</a>. Follow the <a href="/rss.xml">RSS</a>, or write to <a href="mailto:opportunities@homes.land">opportunities@homes.land</a>.</p>
+
+<nav class="article-nav">
+<a href="/blog/">Back to the journal →</a>
+</nav>
+</main>
+
+<footer class="site">
+© <span id="y"></span> GNZ Enterprises. All rights reserved. · <a href="/">Home</a> · <a href="/blog/">Blog</a>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</footer>
+</body>
+</html>
