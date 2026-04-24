@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>The GNZ Journal — Web Design &amp; Web Development Essays</title>
+  <title>The GNZ Journal — Web Design, Web Development &amp; AI Automation Essays</title>
   <link>https://www.gnzenterprises.com/blog/</link>
   <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
-  <description>Daily long-form essays on web design, web development, and WordPress websites — from the desks at GNZ Enterprises.</description>
+  <description>Daily long-form essays on web design, web development, website designs, and AI automation — from the desks at GNZ Enterprises.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 18 Apr 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 24 Apr 2026 12:00:00 GMT</lastBuildDate>
 
+  <item>
+    <title>AI Automation and Business Websites in 2026: The Quiet Revolution Nobody Is Advertising</title>
+    <link>https://www.gnzenterprises.com/blog/ai-automation-business-websites-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-automation-business-websites-2026/</guid>
+    <pubDate>Thu, 24 Apr 2026 09:00:00 GMT</pubDate>
+    <description>Most businesses are using AI automation decoratively and hesitantly. A field guide to deploying it properly — and what a 191-333% ROI actually requires.</description>
+  </item>
+  <item>
+    <title>Website Design Psychology: How Great Sites Convert Before Anyone Reads a Word</title>
+    <link>https://www.gnzenterprises.com/blog/website-design-psychology-convert-visitors/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/website-design-psychology-convert-visitors/</guid>
+    <pubDate>Thu, 24 Apr 2026 09:30:00 GMT</pubDate>
+    <description>Your visitors decide whether to trust you in 50 milliseconds. The neuroscience behind great website design — visual hierarchy, whitespace, cognitive load, and the emotional arc that ends in a signed contract.</description>
+  </item>
+  <item>
+    <title>Web Development in 2026: The Tech Stack Every Serious Business Should Understand</title>
+    <link>https://www.gnzenterprises.com/blog/web-development-tech-stack-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-development-tech-stack-2026/</guid>
+    <pubDate>Thu, 24 Apr 2026 10:00:00 GMT</pubDate>
+    <description>Next.js, Tailwind, Supabase, Vercel, Drizzle — modern web development has a consensus stack. What it is, how it maps to your budget tier, and seven questions to ask before you sign anything.</description>
+  </item>
+  <item>
+    <title>Professional Website Designs That Actually Close Deals: An Anatomy in Seven Parts</title>
+    <link>https://www.gnzenterprises.com/blog/professional-website-designs-close-deals/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/professional-website-designs-close-deals/</guid>
+    <pubDate>Thu, 24 Apr 2026 10:30:00 GMT</pubDate>
+    <description>The difference between website designs that generate leads and those that merely generate compliments is not aesthetics — it is architecture. A dissection of the seven components every high-performing site requires.</description>
+  </item>
+  <item>
+    <title>AI Automation, Web Design, and the Future: What Changed, What Didn't, and What That Means for Your Business</title>
+    <link>https://www.gnzenterprises.com/blog/ai-automation-web-design-future-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-automation-web-design-future-2026/</guid>
+    <pubDate>Thu, 24 Apr 2026 11:00:00 GMT</pubDate>
+    <description>Three things AI automation genuinely changed in web design. Five things it still cannot do. And why the competitive advantage now belongs to whoever learns fastest.</description>
+  </item>
   <item>
     <title>Web Design in 2026: A Seduction Manual for the Tasteful Entrepreneur</title>
     <link>https://www.gnzenterprises.com/blog/web-design-seduction-manual-2026/</link>
