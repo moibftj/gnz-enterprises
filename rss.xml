@@ -6,8 +6,43 @@
   <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
   <description>Daily long-form essays on web design, web development, website designs, and AI automation — from the desks at GNZ Enterprises.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 24 Apr 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 25 Apr 2026 11:00:00 GMT</lastBuildDate>
 
+  <item>
+    <title>Mobile-First Web Design in 2026: A Non-Negotiable for Every Serious Business</title>
+    <link>https://www.gnzenterprises.com/blog/mobile-first-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/mobile-first-web-design-2026/</guid>
+    <pubDate>Sat, 25 Apr 2026 11:00:00 GMT</pubDate>
+    <description>Sixty percent of your traffic arrives on a 390-pixel screen. Mobile-first web design is not a preference — it is the architecture Google ranks, the experience users expect, and the gap between a business that converts and one that confuses.</description>
+  </item>
+  <item>
+    <title>AI Automation on Your Website: From Chatbot Gimmick to Revenue Engine</title>
+    <link>https://www.gnzenterprises.com/blog/ai-automation-website-leads-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-automation-website-leads-2026/</guid>
+    <pubDate>Sat, 25 Apr 2026 10:30:00 GMT</pubDate>
+    <description>Most business websites use AI automation as decoration. The ones generating $42K in additional ARR from the same traffic use it as infrastructure — qualifying leads, personalising content, and following up while you sleep.</description>
+  </item>
+  <item>
+    <title>Web Development Performance in 2026: Every 100ms Costs You Real Money</title>
+    <link>https://www.gnzenterprises.com/blog/web-development-performance-speed-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-development-performance-speed-2026/</guid>
+    <pubDate>Sat, 25 Apr 2026 10:00:00 GMT</pubDate>
+    <description>Amazon calculated it first: 100ms of latency costs 1% of sales. Google's March 2026 core update made Core Web Vitals a harder ranking signal. Only 47% of sites pass. A practical guide to web development performance that pays for itself.</description>
+  </item>
+  <item>
+    <title>8 Website Design Mistakes That Are Quietly Killing Your Conversions</title>
+    <link>https://www.gnzenterprises.com/blog/website-design-mistakes-killing-conversions/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/website-design-mistakes-killing-conversions/</guid>
+    <pubDate>Sat, 25 Apr 2026 09:30:00 GMT</pubDate>
+    <description>Your website design may look fine and still be hemorrhaging leads. Eight specific mistakes — from company-obsessed hero copy to three-second load times to seven-field contact forms — with the data on exactly how much each one costs you.</description>
+  </item>
+  <item>
+    <title>Custom Web Design vs. Templates in 2026: Why the Gap Has Never Been Wider</title>
+    <link>https://www.gnzenterprises.com/blog/custom-web-design-vs-templates-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/custom-web-design-vs-templates-2026/</guid>
+    <pubDate>Sat, 25 Apr 2026 09:00:00 GMT</pubDate>
+    <description>Templates are not the enemy. They are the wrong tool for a specific job. A rigorous ROI comparison of custom web design against Webflow and Squarespace templates — including the $3.8M revenue case study that settles the argument.</description>
+  </item>
   <item>
     <title>AI Automation and Business Websites in 2026: The Quiet Revolution Nobody Is Advertising</title>
     <link>https://www.gnzenterprises.com/blog/ai-automation-business-websites-2026/</link>
