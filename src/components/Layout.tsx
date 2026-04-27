@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import TopNavigation from '@cloudscape-design/components/top-navigation';
 import Box from '@cloudscape-design/components/box';
 
@@ -9,7 +9,6 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const navigate = useNavigate();
-  const location = useLocation();
 
   return (
     <Box>
@@ -31,27 +30,17 @@ export default function Layout({ children }: LayoutProps) {
             type: 'menu-dropdown',
             text: 'Menu',
             items: [
-              {
-                id: 'home',
-                text: 'Home',
-                href: '/'
-              },
-              {
-                id: 'services',
-                text: 'Services',
-                href: '/services'
-              },
-              {
-                id: 'about',
-                text: 'About',
-                href: '/about'
-              }
+              { id: 'home', text: 'Home', href: '/' },
+              { id: 'services', text: 'Services', href: '/services' },
+              { id: 'about', text: 'About', href: '/about' },
+              { id: 'blog', text: 'Blog', href: '/blog/' }
             ],
             onItemClick: (e) => {
               e.preventDefault();
               if (e.detail.id === 'home') navigate('/');
               if (e.detail.id === 'services') navigate('/services');
               if (e.detail.id === 'about') navigate('/about');
+              if (e.detail.id === 'blog') window.location.href = '/blog/';
             }
           },
           {
@@ -71,6 +60,18 @@ export default function Layout({ children }: LayoutProps) {
         }}
       />
       <Box>{children}</Box>
+      <Box padding={{ top: 'xl', bottom: 'xl', horizontal: 'xxl' }} textAlign="center">
+        <Box variant="small" color="text-status-inactive">
+          <a href="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: '24px' }}>Home</a>
+          <a href="/services" style={{ color: 'inherit', textDecoration: 'none', marginRight: '24px' }}>Services</a>
+          <a href="/about" style={{ color: 'inherit', textDecoration: 'none', marginRight: '24px' }}>About</a>
+          <a href="/blog/" style={{ color: 'inherit', textDecoration: 'none', marginRight: '24px' }}>Blog</a>
+          <a href="/contact" style={{ color: 'inherit', textDecoration: 'none' }}>Contact</a>
+        </Box>
+        <Box variant="small" color="text-status-inactive" padding={{ top: 's' }}>
+          {'©'} {new Date().getFullYear()} GNZ Enterprises. All rights reserved.
+        </Box>
+      </Box>
     </Box>
   );
 }
