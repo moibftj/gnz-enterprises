@@ -6,8 +6,78 @@
   <atom:link href="https://www.gnzenterprises.com/rss.xml" rel="self" type="application/rss+xml" />
   <description>Daily long-form essays on web design, web development, website designs, and AI automation — from the desks at GNZ Enterprises.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 25 Apr 2026 11:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 27 Apr 2026 11:00:00 GMT</lastBuildDate>
 
+  <item>
+    <title>Responsive Web Design in 2026: Building Sites That Work on Every Device</title>
+    <link>https://www.gnzenterprises.com/blog/responsive-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/responsive-web-design-2026/</guid>
+    <pubDate>Mon, 27 Apr 2026 11:00:00 GMT</pubDate>
+    <description>Container queries, fluid typography with clamp(), mobile-first strategy, WCAG 3.0 accessibility, and real-device testing — the complete technical and business case for responsive web design that adapts gracefully to every screen that exists today and every one that is coming.</description>
+  </item>
+  <item>
+    <title>AI Automation for Small Business in 2026: 5 Workflows That Pay for Themselves</title>
+    <link>https://www.gnzenterprises.com/blog/ai-automation-small-business-workflows-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-automation-small-business-workflows-2026/</guid>
+    <pubDate>Mon, 27 Apr 2026 10:30:00 GMT</pubDate>
+    <description>Five AI automation workflows any small business can deploy this quarter — lead follow-up, support chatbot, email nurture, booking automation, and automated reporting — with real tool recommendations, cost breakdowns, and documented ROI for each.</description>
+  </item>
+  <item>
+    <title>Web Development and SEO in 2026: How Your Build Decisions Affect Rankings</title>
+    <link>https://www.gnzenterprises.com/blog/web-development-seo-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-development-seo-2026/</guid>
+    <pubDate>Mon, 27 Apr 2026 10:00:00 GMT</pubDate>
+    <description>SSR vs SSG vs CSR, Core Web Vitals, JavaScript rendering traps, structured data, AI bot crawlers (GPTBot, ClaudeBot, PerplexityBot), and the developer SEO brief — every web development decision that directly moves your organic rankings.</description>
+  </item>
+  <item>
+    <title>Website Design Checklist 2026: 27 Must-Have Elements Before You Launch</title>
+    <link>https://www.gnzenterprises.com/blog/website-design-checklist-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/website-design-checklist-2026/</guid>
+    <pubDate>Mon, 27 Apr 2026 09:30:00 GMT</pubDate>
+    <description>A 27-point pre-launch checklist across five categories — performance, conversion, trust, SEO, and accessibility. The website design items most agencies skip and most clients never know to ask for, each with measurable impact on traffic and revenue.</description>
+  </item>
+  <item>
+    <title>The Web Design Process Explained: What Clients Should Expect From Brief to Launch</title>
+    <link>https://www.gnzenterprises.com/blog/web-design-process-clients-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-design-process-clients-2026/</guid>
+    <pubDate>Mon, 27 Apr 2026 09:00:00 GMT</pubDate>
+    <description>Discovery, research, wireframes, visual design, development, QA, launch — the seven phases of a professional web design process, what happens at each stage, what clients are responsible for, and where projects derail when expectations are not set upfront.</description>
+  </item>
+  <item>
+    <title>Local Business Web Design in 2026: Win the Neighbourhood Before You Win the Nation</title>
+    <link>https://www.gnzenterprises.com/blog/local-business-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/local-business-web-design-2026/</guid>
+    <pubDate>Sun, 26 Apr 2026 11:00:00 GMT</pubDate>
+    <description>National brands spend millions chasing broad keywords. Your competitive advantage is geography — and a well-designed local business website can help you own it. NAP consistency, LocalBusiness schema, location pages, and trust signals that convert local searchers into paying customers.</description>
+  </item>
+  <item>
+    <title>Is Your Website Redesign Worth It? How to Calculate ROI Before You Spend a Penny</title>
+    <link>https://www.gnzenterprises.com/blog/website-redesign-roi-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/website-redesign-roi-2026/</guid>
+    <pubDate>Sun, 26 Apr 2026 10:30:00 GMT</pubDate>
+    <description>Most website redesigns are triggered by boredom, not data. A four-step diagnostic — conversion rate, device segmentation, Core Web Vitals, heatmap — plus the ROI formula that tells you whether a full rebuild or a targeted refresh will actually move your bottom line.</description>
+  </item>
+  <item>
+    <title>Web Development Cost in 2026: What You Actually Get at Every Price Point</title>
+    <link>https://www.gnzenterprises.com/blog/web-development-cost-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/web-development-cost-2026/</guid>
+    <pubDate>Sun, 26 Apr 2026 10:00:00 GMT</pubDate>
+    <description>From $0 DIY to $80K+ enterprise builds — a clear-eyed breakdown of web development cost across five tiers, the hidden ongoing costs nobody quotes you upfront, and the seven questions that reveal whether an agency's price reflects skill or just overhead.</description>
+  </item>
+  <item>
+    <title>AI Automation for Service Businesses in 2026: The Four Workflows That Pay for Themselves</title>
+    <link>https://www.gnzenterprises.com/blog/ai-automation-service-businesses-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ai-automation-service-businesses-2026/</guid>
+    <pubDate>Sun, 26 Apr 2026 09:30:00 GMT</pubDate>
+    <description>Trades, consultants, agencies, and professionals deploying AI automation across lead capture, nurture, onboarding, and review generation — with documented 40–70% reductions in admin time. Your website is the automation hub.</description>
+  </item>
+  <item>
+    <title>E-Commerce Web Design in 2026: The Seven Layers Between a Visitor and a Sale</title>
+    <link>https://www.gnzenterprises.com/blog/ecommerce-web-design-2026/</link>
+    <guid isPermaLink="true">https://www.gnzenterprises.com/blog/ecommerce-web-design-2026/</guid>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 GMT</pubDate>
+    <description>Average e-commerce conversion rates sit at 2.5–3%. The stores running 6–9% have engineered all seven layers of e-commerce web design — from homepage to post-purchase. A complete blueprint for turning more of your traffic into revenue without buying more of it.</description>
+  </item>
   <item>
     <title>Mobile-First Web Design in 2026: A Non-Negotiable for Every Serious Business</title>
     <link>https://www.gnzenterprises.com/blog/mobile-first-web-design-2026/</link>
